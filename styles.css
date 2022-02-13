@@ -1,0 +1,70 @@
+body {
+  background-color: lightgrey;
+  color: darkblue;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+form {
+  margin-bottom: 15px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+input[type="submit"] {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: darkblue;
+  color: white;
+  padding: 10px;
+}
+
+img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.meme-div {
+  position: relative;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+.remove-button {
+  background-color: darkblue;
+  display: block;
+  border-radius: 15px;
+  padding: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.top-text, .bottom-text {
+  position: absolute;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: white;
+  padding: 10px;
+  font-size: 35px;
+}
+
+.top-text {
+  top: -5px;
+}
+
+.bottom-text {
+  bottom: 65px;
+}
